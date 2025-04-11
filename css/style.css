@@ -33,10 +33,10 @@ a{
 #cover{
     /* background-image: url(/media/banner.jpg); */
     background-size: cover;
-    height: 709px;
+    height: 100vh;
     display: flex;
     align-items: center;
-    margin-bottom: 160px;
+    /* margin-bottom: 160px; */
 }
 h1{
     text-transform: uppercase;
@@ -182,4 +182,30 @@ form {
 .blog-card-button{
     background-color: #E9E9E9;
     font-size: 24px;
+}
+.our-contact{
+    /* display: flex; */
+}
+.contanct-row{
+    display: flex;
+}
+#contact{
+    background-color: #1e1e1e;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}   
+.our-contact, .our-contact h2{
+    background-color: #1e1e1e;
+    
+}
+.our-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+}
+.contacts{
+
 }
